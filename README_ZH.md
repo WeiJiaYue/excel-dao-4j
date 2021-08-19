@@ -15,7 +15,10 @@
 
 * 在doProcess中根据Excel模板确定好的数据结构，你可以从API，Database等任何地方获取数据进行填充。然后生成数据到一个新的Excel文件中
 
-* 加工前的Excel文件![image-20210819145213171.png](/imgs/image-20210819145213171.png)
+* 加工前的Excel文件
+  
+  ![image-20210819145710120](/imgs/sample-1-pre.png)
+
 
 * 加工后新生成Excel文件
 
