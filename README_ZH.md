@@ -22,7 +22,7 @@
 
 * 加工后新生成Excel文件
 
-  ​	![image-20210819145335055](/Users/lewis/Library/Application Support/typora-user-images/image-20210819145335055.png)
+  ​	![image-20210819145335055](/imgs/sample-1-post.png)
 
 * 代码示例
 
@@ -67,15 +67,18 @@
 
 
 
+
+sm
+
 ### 示例二，更新Excel中的数据
 
 * 加工前的Excel文件
 
-  ![image-20210819145710120](/Users/lewis/Library/Application Support/typora-user-images/image-20210819145710120.png)
+  ![image-20210819145710120](/imgs/sample-2-pre.png)
 
 * 加工后的Excel文件
 
-  ![image-20210819145857082](/Users/lewis/Library/Application Support/typora-user-images/image-20210819145857082.png)
+  ![image-20210819145857082](/imgs/sample-2-post.png)
 
 * 代码示例
 
@@ -116,11 +119,11 @@
 
 * 加工前的Excel文件
 
-  ![image-20210819145710120](/Users/lewis/Library/Application Support/typora-user-images/image-20210819145710120.png)
+  ![image-20210819145710120](/imgs/sample-3-pre.png)
 
 * 加工后的Excel文件
 
-  ![image-20210819150513884](/Users/lewis/Library/Application Support/typora-user-images/image-20210819150513884.png)
+  ![image-20210819150513884](/imgs/sample-3-post.png)
 
 * 代码示例
 
@@ -165,11 +168,11 @@
 
 * 加工前的Excel文件
 
-  ![image-20210819145710120](/Users/lewis/Library/Application Support/typora-user-images/image-20210819145710120.png)
+  ![image-20210819145710120](/imgs/sample-4-pre.png)
 
 * 加工后的Excel文件
 
-  ![image-20210819151102688](/Users/lewis/Library/Application Support/typora-user-images/image-20210819151102688.png)
+  ![image-20210819151102688](/imgs/sample-4-post.png)
 
 * 代码示例
 
@@ -215,11 +218,11 @@
 
 * 加工前的Excel文件
 
-  ![image-20210819151328856](/Users/lewis/Library/Application Support/typora-user-images/image-20210819151328856.png)
+  ![image-20210819151328856](/imgs/sample-5-pre.png)
 
 * 加工后的Excel文件
 
-  ![image-20210819151452410](/Users/lewis/Library/Application Support/typora-user-images/image-20210819151452410.png)
+  ![image-20210819151452410](/imgs/sample-5-post.png)
 
 * 代码示例
 
@@ -259,11 +262,11 @@
 
 * 查询Excel如图
 
-  ![image-20210819153223256](/Users/lewis/Library/Application Support/typora-user-images/image-20210819153223256.png)
+  ![image-20210819153223256](/imgs/sample-6-pre.png)
 
 * 查询效果展示
 
-  ![image-20210819153728391](/Users/lewis/Library/Application Support/typora-user-images/image-20210819153728391.png)
+  ![image-20210819153728391](/imgs/sample-6-post.png)
 
 * 代码示例
 
