@@ -1,26 +1,30 @@
 
 
 
+## Using Java to manipulate Excel's addition, deletion, modification, and query in batches is as simple as operating a Java collection
 
 
 
-## 用Java批量操作Excel的增删改查就像操作Java集合一样简单
+[excel-dao-4j](https://github.com/louis-yuu/excel-dao-4j)
+
+# Quick start
 
 
 
-excel-dao-4j
+### Sample 1,Add data to empty excel
 
-### 示例一，对一个空Excel批量新增数据
+* According to the data structure determined by the Excel template,In doProcess method you can get data from API, Database and other places for filling. Then generate the data into a new Excel file
 
-* 在doProcess中根据Excel模板确定好的数据结构，你可以从API，Database等任何地方获取数据进行填充。然后生成数据到一个新的Excel文件中
+* Before process
 
-* 加工前的Excel文件![image-20210819145213171](/Users/lewis/Library/Application Support/typora-user-images/image-20210819145213171.png)
+  ![image-20210819145710120](/imgs/sample-1-pre.png)
 
-* 加工后新生成Excel文件
 
-  ​	![image-20210819145335055](/Users/lewis/Library/Application Support/typora-user-images/image-20210819145335055.png)
+* After proceed
 
-* [代码示例](https://github.com/louis-yuu/excel-dao-4j/blob/master/src/main/java/com/deepinblog/sample/InsertToExcelSample.java)
+  ​	![image-20210819145335055](/imgs/sample-1-post.png)
+
+* [Sample code](https://github.com/louis-yuu/excel-dao-4j/blob/master/src/main/java/com/deepinblog/sample/InsertToExcelSample.java)
 
   ```java
   public class InsertToExcelSample {
@@ -63,17 +67,18 @@ excel-dao-4j
 
 
 
-### 示例二，更新Excel中的数据
 
-* 加工前的Excel文件
+### Sample 2,Modify data
 
-  ![image-20210819145710120](/Users/lewis/Library/Application Support/typora-user-images/image-20210819145710120.png)
+* Before process
 
-* 加工后的Excel文件
+  ![image-20210819145710120](/imgs/sample-2-pre.png)
 
-  ![image-20210819145857082](/Users/lewis/Library/Application Support/typora-user-images/image-20210819145857082.png)
+* After proceed
 
-* 代码示例
+  ![image-20210819145857082](/imgs/sample-2-post.png)
+
+* [Sample code](https://github.com/louis-yuu/excel-dao-4j/blob/master/src/main/java/com/deepinblog/sample/UpdateExcelSample.java)
 
   ```java
   public class UpdateExcelSample {
@@ -108,17 +113,17 @@ excel-dao-4j
 
 
 
-### 示例三，删除Excel中行数据
+### Sample 3,Delete excel row
 
-* 加工前的Excel文件
+* Before process
 
-  ![image-20210819145710120](/Users/lewis/Library/Application Support/typora-user-images/image-20210819145710120.png)
+  ![image-20210819145710120](/imgs/sample-3-pre.png)
 
-* 加工后的Excel文件
+* After proceed
 
-  ![image-20210819150513884](/Users/lewis/Library/Application Support/typora-user-images/image-20210819150513884.png)
+  ![image-20210819150513884](/imgs/sample-3-post.png)
 
-* 代码示例
+* [Sample code](https://github.com/louis-yuu/excel-dao-4j/blob/master/src/main/java/com/deepinblog/sample/DeleteExcelSample.java)
 
   ```java
   public class DeleteExcelSample {
@@ -155,19 +160,17 @@ excel-dao-4j
 
 
 
-###  
+### Sample 4，Dynamic add new columns
 
-### 示例四，动态新增列
+* Before process
 
-* 加工前的Excel文件
+  ![image-20210819145710120](/imgs/sample-4-pre.png)
 
-  ![image-20210819145710120](/Users/lewis/Library/Application Support/typora-user-images/image-20210819145710120.png)
+* After proceed
 
-* 加工后的Excel文件
+  ![image-20210819151102688](/imgs/sample-4-post.png)
 
-  ![image-20210819151102688](/Users/lewis/Library/Application Support/typora-user-images/image-20210819151102688.png)
-
-* 代码示例
+* [Sample code](https://github.com/louis-yuu/excel-dao-4j/blob/master/src/main/java/com/deepinblog/sample/DynamicAddColumnSample.java)
 
   ```java
   public class DynamicAddColumnSample {
@@ -207,25 +210,17 @@ excel-dao-4j
 
 
 
-#### 
+### Sample 5,Delete columns
 
-## 示例五，删除列
+* Before process
 
+  ![image-20210819151328856](/imgs/sample-5-pre.png)
 
+* After proceed
 
+  ![image-20210819151452410](/imgs/sample-5-post.png)
 
-
-
-
-* 加工前的Excel文件
-
-  ![image-20210819151328856](/Users/lewis/Library/Application Support/typora-user-images/image-20210819151328856.png)
-
-* 加工后的Excel文件
-
-  ![image-20210819151452410](/Users/lewis/Library/Application Support/typora-user-images/image-20210819151452410.png)
-
-* 代码示例
+* [Sample code](https://github.com/louis-yuu/excel-dao-4j/blob/master/src/main/java/com/deepinblog/sample/DeleteColumnSample.java)
 
   ```java
   public class DeleteColumnSample {
@@ -259,17 +254,17 @@ excel-dao-4j
 
 
 
-### 示例六，根据列名等值查询，Like查询
+### Sample 6,Selection,According to column name Equivalent query, Like query
 
-* 查询Excel如图
+* Excel file to be queried
 
-  ![image-20210819153223256](/Users/lewis/Library/Application Support/typora-user-images/image-20210819153223256.png)
+  ![image-20210819153223256](/imgs/sample-6-pre.png)
 
-* 查询效果展示
+* Query results
 
-  ![image-20210819153728391](/Users/lewis/Library/Application Support/typora-user-images/image-20210819153728391.png)
+  ![image-20210819153728391](/imgs/sample-6-post.png)
 
-* 代码示例
+* [Sample code](https://github.com/louis-yuu/excel-dao-4j/blob/master/src/main/java/com/deepinblog/sample/SelectSample.java)
 
   ```java
   public class SelectSample {

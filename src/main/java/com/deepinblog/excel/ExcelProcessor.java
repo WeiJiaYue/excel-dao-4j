@@ -12,7 +12,7 @@ import java.util.logging.Logger;
  * Created by louisyuu
  * <p>
  * An abstract excel processor
- * Operates a excel CRUD just like as operate a java collection。
+ * Using Java to manipulate Excel's addition, deletion, modification, and query in batches is as simple as operating a Java collection
  * Simple to use
  */
 public abstract class ExcelProcessor {
