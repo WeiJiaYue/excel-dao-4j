@@ -1,14 +1,11 @@
 
 
 
-
-
-
 ## 用Java批量操作Excel的增删改查就像操作Java集合一样简单
 
 
 
-excel-dao-[4j](https://www.github.com)
+[excel-dao-4j](https://github.com/louis-yuu/excel-dao-4j)
 
 # 使用示例
 
@@ -18,7 +15,7 @@ excel-dao-[4j](https://www.github.com)
 
 * 在doProcess中根据Excel模板确定好的数据结构，你可以从API，Database等任何地方获取数据进行填充。然后生成数据到一个新的Excel文件中
 
-* 加工前的Excel文件![image-20210819145213171](/Users/lewis/Library/Application Support/typora-user-images/image-20210819145213171.png)
+* 加工前的Excel文件![/imgs/image-20210819145213171.png)
 
 * 加工后新生成Excel文件
 
