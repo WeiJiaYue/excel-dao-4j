@@ -24,7 +24,7 @@
 
   ​	![image-20210819145335055](/imgs/sample-1-post.png)
 
-* 代码示例
+* [代码示例](https://github.com/louis-yuu/excel-dao-4j/blob/master/src/main/java/com/deepinblog/sample/InsertToExcelSample.java) 
 
   ```java
   public class InsertToExcelSample {
@@ -80,7 +80,7 @@ sm
 
   ![image-20210819145857082](/imgs/sample-2-post.png)
 
-* 代码示例
+* [代码示例](https://github.com/louis-yuu/excel-dao-4j/blob/master/src/main/java/com/deepinblog/sample/UpdateExcelSample.java)
 
   ```java
   public class UpdateExcelSample {
@@ -125,7 +125,7 @@ sm
 
   ![image-20210819150513884](/imgs/sample-3-post.png)
 
-* 代码示例
+* [代码示例](https://github.com/louis-yuu/excel-dao-4j/blob/master/src/main/java/com/deepinblog/sample/DeleteExcelSample.java)
 
   ```java
   public class DeleteExcelSample {
@@ -174,7 +174,7 @@ sm
 
   ![image-20210819151102688](/imgs/sample-4-post.png)
 
-* 代码示例
+* [代码示例](https://github.com/louis-yuu/excel-dao-4j/blob/master/src/main/java/com/deepinblog/sample/DynamicAddColumnSample.java)
 
   ```java
   public class DynamicAddColumnSample {
@@ -224,7 +224,7 @@ sm
 
   ![image-20210819151452410](/imgs/sample-5-post.png)
 
-* 代码示例
+* [代码示例](https://github.com/louis-yuu/excel-dao-4j/blob/master/src/main/java/com/deepinblog/sample/DeleteColumnSample.java)
 
   ```java
   public class DeleteColumnSample {
@@ -268,7 +268,7 @@ sm
 
   ![image-20210819153728391](/imgs/sample-6-post.png)
 
-* 代码示例
+* [代码示例](https://github.com/louis-yuu/excel-dao-4j/blob/master/src/main/java/com/deepinblog/sample/SelectSample.java)
 
   ```java
   public class SelectSample {

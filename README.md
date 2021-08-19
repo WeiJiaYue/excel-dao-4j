@@ -20,7 +20,7 @@ excel-dao-4j
 
   ​	![image-20210819145335055](/Users/lewis/Library/Application Support/typora-user-images/image-20210819145335055.png)
 
-* 代码示例
+* [代码示例](https://github.com/louis-yuu/excel-dao-4j/blob/master/src/main/java/com/deepinblog/sample/InsertToExcelSample.java)
 
   ```java
   public class InsertToExcelSample {
