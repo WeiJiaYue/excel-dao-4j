@@ -105,7 +105,7 @@ public class Helpers {
             cellIndex = 0;
             for (String column : table.getColumns()) {
                 Cell cell = excelRow.createCell(cellIndex);
-                cell.setCellValue(String.valueOf(tableRow.get(column)));
+                cell.setCellValue(tableRow.get(column) == null ? null : String.valueOf(tableRow.get(column)));
                 cellIndex++;
             }
         }
